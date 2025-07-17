@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchBtn = document.getElementById('search-btn');
     const suggestions = document.getElementById('suggestions');
 
-    // Initialize with user's location
+    
     getLocation();
 
     // Function to get user's location
@@ -147,15 +147,11 @@ document.addEventListener('DOMContentLoaded', function() {
             suggestions.style.display = 'none';
         }
     });
-
-    // Add click outside to close suggestions
     document.addEventListener('click', (e) => {
         if (!suggestions.contains(e.target) && !locationInput.contains(e.target)) {
             suggestions.style.display = 'none';
         }
     });
-
-    // Add search button click handler
     searchBtn.addEventListener('click', () => {
         const query = locationInput.value.trim();
         if (query) {
