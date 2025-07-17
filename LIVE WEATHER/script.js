@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // OpenWeatherMap API Key - Loaded from config.js
     const API_KEY = window.API_KEY;
     const API_URL = 'https://api.openweathermap.org/data/2.5/weather';
     const CITY_LIST_URL = 'https://api.openweathermap.org/geo/1.0/direct';
