@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.search-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.search-input {
+    flex: 1;
+    position: relative;
+}
+
+#location-input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#location-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+.suggestions ul {
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+.suggestions li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background: #f0f0f0;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #566ee0;
+}
+
+.weather-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+}
+
+.location {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.weather-info {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.temperature {
+    text-align: center;
+}
+
+.temperature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.temperature h3 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.details {
+    flex: 1;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.additional-info {
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    color: #666;
+}
