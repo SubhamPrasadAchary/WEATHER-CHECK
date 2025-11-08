@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchBtn = document.getElementById('search-btn');
     const suggestions = document.getElementById('suggestions');
 
-
     getLocation();
 
     // Function to get user's location
