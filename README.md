@@ -1,5 +1,4 @@
 Get real-time weather updates instantly! WeatherNow is a sleek, simple weather app built with pure HTML, CSS, and JavaScript that lets you search for any city worldwide and instantly see temperature, humidity, and weather conditions. No complex setup, no bloated features—just beautiful, reliable weather information at your fingertips. Whether you're planning your day or curious about the weather across the globe, WeatherNow delivers exactly what you need with a clean, responsive design that works perfectly on any device. Built with passion for simplicity and speed, this project showcases how powerful vanilla web technologies can be. Try it now and never wonder about the weather again! 🌍✨
 
-
 <img width="1422" height="874" alt="image" src="https://github.com/user-attachments/assets/16362014-db07-4009-b8f1-fd7cb592264e" />
 <img width="1421" height="821" alt="image" src="https://github.com/user-attachments/assets/c9fe0b5d-718b-4f9a-9787-5db22110bae6" />
